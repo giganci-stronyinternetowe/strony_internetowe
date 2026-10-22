@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kocia Kraina 🐾</title>
+<style>
+:root{--brown:#754a32;--tan:#8b5e3c;--cream:#fffaf2;--muted:#806f61}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--cream);color:#3e3028}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:17px 5%;background:#fffdf8;border-bottom:1px solid #f1e3d1}
+.brand{font-weight:900;font-size:22px;color:var(--tan)}.links{display:flex;gap:17px;flex-wrap:wrap}.links a{color:#785b47;text-decoration:none;font-weight:700;font-size:14px}
+.hero{padding:44px 6% 48px;background:linear-gradient(130deg,#ffedcf,#ffe3d8);display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:24px}
+.hero h1{font-size:clamp(36px,6vw,60px);line-height:1.06;margin:12px 0;color:var(--brown);letter-spacing:-1.8px}.hero p{font-size:16px;line-height:1.7;color:#765d4c}
+.pill{display:inline-block;background:#fff8ec;color:#95663f;padding:8px 13px;border-radius:30px;font-size:12px;font-weight:800}
+.mainbtn{border:0;background:var(--tan);color:white;padding:13px 19px;border-radius:13px;font-weight:800;cursor:pointer;font-size:14px;box-shadow:0 5px 0 #69432f}.mainbtn:active{transform:translateY(2px);box-shadow:0 3px 0 #69432f}
+.heroimg{width:100%;height:285px;object-fit:cover;border-radius:28px;border:7px solid #fff9ee;box-shadow:0 12px 32px #b87e4930}
+section{padding:36px 5%}.sectionhead{text-align:center;margin-bottom:22px}h2{font-size:28px;color:var(--brown);margin:7px 0}.sub{color:#917762;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.catcard{background:white;border:1px solid #f0e4d5;border-radius:19px;overflow:hidden;box-shadow:0 5px 15px #79563a0b}.catcard img{width:100%;height:175px;object-fit:cover;display:block}.cardbody{padding:14px}.cardbody h3{color:#785039;margin:2px 0 7px;font-size:18px}.cardbody p{font-size:14px;line-height:1.6;color:var(--muted);margin:0}
+.factbox{background:#fff0da;border:1px solid #f5dfbe;padding:24px;border-radius:22px;text-align:center;max-width:650px;margin:auto}.facttext{font-size:17px;line-height:1.6;color:#79523a;min-height:54px}.paw{font-size:33px}.status{font-size:12px;color:#8c6d53;margin-top:12px}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.gallery img{width:100%;height:160px;object-fit:cover;border-radius:15px}
+.footer{text-align:center;padding:24px 12px;background:#f4e3d0;color:#84664d;font-size:13px}
+@media(max-width:600px){.hero{grid-template-columns:1fr;padding-top:30px}.heroimg{height:230px}.cards{grid-template-columns:1fr}.catcard img{height:220px}.links{gap:10px}.brand{font-size:18px}section{padding:28px 5%}.gallery img{height:110px}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="brand">🐾 Kocia Kraina</div><nav class="links"><a href="#koty">Koty</a><a href="#ciekawostki">Ciekawostki</a><a href="#galeria">Galeria</a></nav></header>
+<main>
+<div class="hero"><div><span class="pill">🐈 MIEJSCE DLA KOCICH FANÓW</span><h1>Małe łapki,<br>wielka miłość.</h1><p>Witaj w Kociej Krainie! Poznaj niezwykłe koty, odkrywaj ich sekrety i zobacz galerię futrzastych przyjaciół.</p><a href="#koty"><button class="mainbtn">Poznaj koty 🐾</button></a><div class="status">Stworzone z miłości do kotów ❤️</div></div><img class="heroimg" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=85" alt="Uroczy kot"></div>
+<section id="koty"><div class="sectionhead"><span class="pill">NASI FUTRZASTI PRZYJACIELE</span><h2>Poznaj kocią ekipę 🐱</h2><div class="sub">Każdy kot ma swój wyjątkowy charakter!</div></div><div class="cards">
+<article class="catcard"><img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=600&q=80" alt="Puszysty kot"><div class="cardbody"><h3>😺 Puszek</h3><p>Mistrz drzemek i przytulania. Jego ulubione hobby to spanie w ciepłych miejscach.</p></div></article>
+<article class="catcard"><img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=600&q=80" alt="Kot gotowy do zabawy"><div class="cardbody"><h3>🐈 Mruczek</h3><p>Mały odkrywca, który musi sprawdzić każdy karton i każdą papierową torbę.</p></div></article>
+<article class="catcard"><img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=600&q=80" alt="Kot odpoczywający"><div class="cardbody"><h3>😽 Luna</h3><p>Kocia dama o wielkim sercu. Uwielbia obserwować świat z parapetu.</p></div></article>
+</div></section>
+<section id="ciekawostki"><div class="sectionhead"><span class="pill">KOCIA WIEDZA</span><h2>Ciekawostka na dziś 💡</h2><div class="sub">Kliknij i odkryj coś nowego!</div></div><div class="factbox"><div class="paw">🐾</div><p class="facttext" id="catfact">Koty potrafią obracać uszami w kierunku interesujących dźwięków!</p><button class="mainbtn" id="newfact">Nowa ciekawostka! 🎲</button><div class="status" id="factcount">Ciekawostki czekają na odkrycie</div></div></section>
+<section id="galeria"><div class="sectionhead"><span class="pill">KOTY SĄ SUPER</span><h2>Kocia galeria 📸</h2><div class="sub">Ostrzeżenie: duża dawka słodkości!</div></div><div class="gallery"><img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=500&q=80" alt="Zabawny kot"><img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=500&q=80" alt="Kot w ogrodzie"><img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=500&q=80" alt="Kot odpoczywający"></div></section>
+</main>
+<footer class="footer">🐾 Kocia Kraina · Stworzone dla miłośników kotów 🐾<br>Niech każdy dzień będzie pełen mruczenia!</footer>
+<script>
+(()=>{const facts=["Koty potrafią obracać uszami w kierunku interesujących dźwięków!","Koty komunikują się z ludźmi miauczeniem częściej niż z dorosłymi kotami.","Kocie wąsy pomagają kotu orientować się w otoczeniu.","Koty spędzają dużą część dnia na odpoczynku i pielęgnacji futra.","Każdy koci nos ma unikalny wzór!","Mruczenie może towarzyszyć kotom nie tylko podczas zadowolenia, ale też w stresujących sytuacjach.","Koty mają bardzo czuły słuch i potrafią usłyszeć wysokie dźwięki.","Wiele kotów lubi kartony, bo dają im poczucie bezpieczeństwa."];let last=-1,count=0;document.getElementById("newfact").addEventListener("click",()=>{let n;do{n=Math.floor(Math.random()*facts.length)}while(n===last&&facts.length>1);last=n;count++;document.getElementById("catfact").textContent=facts[n];document.getElementById("factcount").textContent="Odkryte ciekawostki: "+count+" 🐾";});})();
+</script>
+</body>
+</html>
